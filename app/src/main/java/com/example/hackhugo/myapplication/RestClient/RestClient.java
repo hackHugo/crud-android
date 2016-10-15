@@ -21,7 +21,7 @@ import java.util.Map;
  */
 
 public class RestClient {
-    public String RUTA_API = "http://192.168.1.80/proyectos/apiRest/public/api/v1";
+    public String RUTA_API = "http://yourIP/proyectos/apiRest/public/api/v1";
 
     public void getContactos(Context context, final RespuestaObject respuesta) {
         RequestQueue queue = Volley.newRequestQueue(context);
