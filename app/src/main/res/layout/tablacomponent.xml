@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl1"
+            android:layout_weight="1.5"
+            android:textSize="11dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl2"
+            android:textSize="11dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="2"
+            android:layout_weight="1.5" />
+
+        <Button
+            android:text="Editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEditar"
+            android:layout_weight=".5" />
+
+        <Button
+            android:text="Eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEliminar"
+            android:layout_weight=".5" />
+
+
+    </LinearLayout>
+</LinearLayout>
